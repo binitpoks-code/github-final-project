@@ -1,0 +1,9 @@
+$ curl.exe -sS https://api.github.com/repos/binitpoks-code/mcino-Introduction-to-Git-and-GitHub/pulls/1 | ConvertFrom-Json | Select-Object number,html_url,state,@{Name='head_ref';Expression={$_.head.ref}},@{Name='head_repo';Expression={$_.head.repo.full_name}},@{Name='head_repo_fork';Expression={$_.head.repo.fork}},@{Name='base_ref';Expression={$_.base.ref}} | Format-List
+
+number         : 1
+html_url       : https://github.com/binitpoks-code/mcino-Introduction-to-Git-and-GitHub/pull/1
+state          : open
+head_ref       : bug-fix-revert
+head_repo      : binitpoks-code/mcino-Introduction-to-Git-and-GitHub
+head_repo_fork : True
+base_ref       : main
