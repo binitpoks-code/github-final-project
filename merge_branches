@@ -1,0 +1,11 @@
+$ git checkout main
+warning: unable to access 'C:\Users\binit/.config/git/ignore': Permission denied
+warning: unable to access 'C:\Users\binit/.config/git/ignore': Permission denied
+Switched to branch 'main'
+Your branch is up to date with 'origin/main'.
+$ git merge bug-fix-typo
+warning: unable to access 'C:\Users\binit/.config/git/ignore': Permission denied
+Updating ad95b0a..6ef2719
+Fast-forward
+ simple-interest.sh | 2 +-
+ 1 file changed, 1 insertion(+), 1 deletion(-)

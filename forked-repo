@@ -1,0 +1,6 @@
+$ curl.exe -sS https://api.github.com/repos/binitpoks-code/mcino-Introduction-to-Git-and-GitHub | ConvertFrom-Json | Select-Object full_name,private,fork,@{Name='parent_full_name';Expression={$_.parent.full_name}} | Format-List
+
+full_name        : binitpoks-code/mcino-Introduction-to-Git-and-GitHub
+private          : False
+fork             : True
+parent_full_name : ibm-developer-skills-network/mcino-Introduction-to-Git-and-GitHub
