@@ -6,21 +6,11 @@
 # Additional Authors:
 # <your Github username>
 
-# Input:
-# p, principal amount
-# t, time period in years
-# r, annual rate of interest
+# Formula: simple_interest = principal * rate * time / 100
 
-# Output:
-# simple interest = p*t*r
+read -r -p "Enter the principal amount: " principal
+read -r -p "Enter the rate of interest: " rate
+read -r -p "Enter the time period in years: " time
 
-echo "Enter the principal:"
-read p
-echo "Enter rate of interest per year:"
-read r
-echo "Enter time period in years:"
-read t
-
-s=$(expr $p \* $t \* $r / 100)
-echo "The simple interest is: "
-echo $s
+simple_interest=$((principal * rate * time / 100))
+echo "The simple interest is: $simple_interest"

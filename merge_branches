@@ -5,7 +5,7 @@ Switched to branch 'main'
 Your branch is up to date with 'origin/main'.
 $ git merge bug-fix-typo
 warning: unable to access 'C:\Users\binit/.config/git/ignore': Permission denied
-Updating ad95b0a..6ef2719
+Updating cdda7df..66155a4
 Fast-forward
- simple-interest.sh | 2 +-
- 1 file changed, 1 insertion(+), 1 deletion(-)
+ README.md | 20 +++++++++++++-------
+ 1 file changed, 13 insertions(+), 7 deletions(-)
