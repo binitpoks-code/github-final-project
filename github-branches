@@ -1,0 +1,8 @@
+$ git branch -a -vv
+  bug-fix-revert                281a5eb [origin/bug-fix-revert] Revert "Fix typo in simple interest script"
+  bug-fix-typo                  6ef2719 [origin/bug-fix-typo] Fix typo in simple interest script
+* main                          0099daa [origin/main] Add assignment verification evidence
+  remotes/origin/HEAD           -> origin/main
+  remotes/origin/bug-fix-revert 281a5eb Revert "Fix typo in simple interest script"
+  remotes/origin/bug-fix-typo   6ef2719 Fix typo in simple interest script
+  remotes/origin/main           0099daa Add assignment verification evidence
