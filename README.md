@@ -7,6 +7,8 @@ interest from the principal amount, annual rate of interest, and time period.
 
 **Simple Interest = (Principal × Rate × Time) / 100**
 
+In variable form: `simple interest = p*t*r/100`
+
 ```
 Inputs:
    Principal (P): the initial principal amount
