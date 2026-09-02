@@ -1,9 +1,9 @@
-$ curl.exe -sS https://api.github.com/repos/binitpoks-code/mcino-Introduction-to-Git-and-GitHub/pulls/1 | ConvertFrom-Json | Select-Object number,html_url,state,@{Name='head_ref';Expression={$_.head.ref}},@{Name='head_repo';Expression={$_.head.repo.full_name}},@{Name='head_repo_fork';Expression={$_.head.repo.fork}},@{Name='base_ref';Expression={$_.base.ref}} | Format-List
+$ curl.exe -sS https://api.github.com/repos/ibm-developer-skills-network/mcino-Introduction-to-Git-and-GitHub/pulls/10888 | ConvertFrom-Json | Select-Object number,html_url,state,@{Name='head_label';Expression={$_.head.label}},@{Name='head_repo';Expression={$_.head.repo.full_name}},@{Name='head_repo_fork';Expression={$_.head.repo.fork}},@{Name='base_repo';Expression={$_.base.repo.full_name}} | Format-List
 
-number         : 1
-html_url       : https://github.com/binitpoks-code/mcino-Introduction-to-Git-and-GitHub/pull/1
-state          : open
-head_ref       : bug-fix-revert
+number         : 10888
+html_url       : https://github.com/ibm-developer-skills-network/mcino-Introduction-to-Git-and-GitHub/pull/10888
+state          : closed
+head_label     : binitpoks-code:bug-fix-revert
 head_repo      : binitpoks-code/mcino-Introduction-to-Git-and-GitHub
 head_repo_fork : True
-base_ref       : main
+base_repo      : ibm-developer-skills-network/mcino-Introduction-to-Git-and-GitHub
