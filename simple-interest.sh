@@ -3,7 +3,7 @@
 # Do not use this in production. Sample purpose only.
 
 # Author: Upkar Lidder (IBM)
-# Additional Authors:
+# Addtional Authors:
 # <your Github username>
 
 # Formula: simple_interest = principal * rate * time / 100
